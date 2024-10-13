@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "rootDir": "/",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "routes/**/*.ts",
+        "config/services/**/*.ts"
+, "src/services/chatbot.service.js", "config/pineconeClient.js"    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
